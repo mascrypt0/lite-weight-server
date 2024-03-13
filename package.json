@@ -1,0 +1,43 @@
+{
+  "name": "lite-weight-server",
+  "version": "1.2.5",
+  "description": "Lightweight node server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint *.js lib/*.js && istanbul cover _mocha -- -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mascrypt0/lite-weight-server.git"
+  },
+  "keywords": [
+    "angular",
+    "spa",
+    "static",
+    "server",
+    "development"
+  ],
+  "contributors": [
+    "mascrypt0 <techblogging9@gmail.com>",
+    "pycript <https://github.com/psycrypt>"
+  ],
+  "license": "MIT",
+  "bin": {
+    "lite-weight-server": "./bin/lite-weight-server"
+  },
+  "homepage": "hhttps://github.com/mascrypt0/lite-weight-server#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.13",
+    "connect-history-api-fallback": "^1.6.0",
+    "connect-logger": "^0.0.1",
+    "lodash": "^4.17.20",
+    "minimist": "^1.2.5"
+  },
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^8.2.1",
+    "mockery": "^2.1.0",
+    "sinon": "^9.2.1"
+  }
+}
